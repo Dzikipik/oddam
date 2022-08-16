@@ -4,6 +4,31 @@
     right: 0;
     width: 683px;
     height: 95px;
-    background-color: $color-secondary;
+    // background-color: pink;
     z-index: 999;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    &-loginPanel {
+        list-style: none;
+        justify-content: right;
+        gap: 5.5rem;
+        display: flex;
+        font-size: 1.3rem;
+        color: $color-grey;
+    }
+    &-menu {
+        list-style: none;
+        justify-content: space-between;
+        gap: 5.5rem;
+        display: flex;
+        padding-bottom: 0.9rem;
+        font-size: 1.8rem;
+        color: $color-darkest;
+    }
+    &-li {
+        
+        font-family: $font-base;
+        
+    }
 }
