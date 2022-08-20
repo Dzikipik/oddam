@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from "react-router-dom";
+import LinkScrollTo from './LinkScrollTo';
 
 export default function Navigation() {
 
@@ -10,11 +12,11 @@ export default function Navigation() {
           <li className="navigation-li">Załóż konto</li>
         </div>
           <div className="navigation-menu">
-            <li className="navigation-li">Start</li>
-            <li className="navigation-li">O co chodzi?</li>
-            <li className="navigation-li">O nas</li>
-            <li className="navigation-li">Fundacja i organizacje</li>
-            <li className="navigation-li">Kontakt</li>
+            <LinkScrollTo link="start" text="Start" />
+            <LinkScrollTo link="homeThreeColumns" text="O co chodzi?" />
+            <LinkScrollTo link="aboutUs" text="O nas" />
+            <LinkScrollTo link="helping" text="Fundacja i organizacje" />
+            <LinkScrollTo link="contactField" text="Kontakt" />
           </div>
       </div>
       

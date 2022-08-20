@@ -2,7 +2,7 @@ import React from "react";
 
 export default function AboutUs() {
   return (
-    <section className="aboutus">
+    <section id="aboutUs" className="aboutus">
       O nas
     </section>
   );
