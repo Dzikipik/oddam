@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from "react-router-dom";
 import LinkScrollTo from './LinkScrollTo';
 
-export default function Navigation() {
+const Navigation = () => {
 
     return (
 
@@ -22,3 +22,5 @@ export default function Navigation() {
       
     );
   }
+
+  export default Navigation;

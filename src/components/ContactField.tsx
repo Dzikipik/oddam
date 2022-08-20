@@ -1,9 +1,11 @@
 import React from "react";
 
-export default function ContactField() {
+const ContactField = () => {
   return (
     <section id="contactField" className="contactfield">
       Kontakt
     </section>
   );
 }
+
+export default ContactField

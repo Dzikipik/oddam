@@ -1,7 +1,8 @@
 import React from 'react';
 import decor from "../assets/Decoration.svg";
+import HeroImage from './HeroImage';
 
-export default function HeroIntro() {
+const HeroIntro = () => {
   
     return (
       <div className="herointro">
@@ -17,3 +18,5 @@ export default function HeroIntro() {
       </div>
     );
   }
+
+  export default HeroImage;

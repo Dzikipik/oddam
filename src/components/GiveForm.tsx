@@ -1,9 +1,11 @@
 import React from "react";
 
-export default function GiveForm() {
+const GiveForm = () => {
   return (
     <section className="giveform">
       Formularz oddawania
     </section>
   );
 }
+
+export default GiveForm;

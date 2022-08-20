@@ -1,9 +1,11 @@
 import React from "react";
 
-export default function Footer() {
+const Footer = () => {
   return (
     <section className="footer">
       Stopka
     </section>
   );
 }
+
+export default Footer;

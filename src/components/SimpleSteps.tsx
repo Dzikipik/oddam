@@ -1,9 +1,11 @@
 import React from "react";
 
-export default function SimpleSteps() {
+const SimpleSteps = () => {
   return (
     <section className="simplesteps">
       Proste kroki
     </section>
   );
 }
+
+export default SimpleSteps;

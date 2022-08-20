@@ -1,9 +1,11 @@
 import React from "react";
 
-export default function Logout() {
+const Logout = () => {
   return (
     <section className="logout">
       Wyloguj
     </section>
   );
 }
+
+export default Logout;

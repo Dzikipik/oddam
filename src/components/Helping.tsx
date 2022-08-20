@@ -1,9 +1,11 @@
 import React from "react";
 
-export default function Helping() {
+const Helping = () => {
   return (
     <section id="helping" className="helping">
       Pomaganie
     </section>
   );
 }
+
+export default Helping;

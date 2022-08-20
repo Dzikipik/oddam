@@ -1,9 +1,11 @@
 import React from "react";
 
-export default function HomeThreeColumns() {
+const HomeThreeColumns = () => {
   return (
     <section id="homeThreeColumns" className="homeThreeColumns">
       Trzy kolumny
     </section>
   );
 }
+
+export default HomeThreeColumns;

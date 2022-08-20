@@ -3,7 +3,7 @@ import Navigation from "./Navigation";
 import HeroImage from "./HeroImage";
 import HeroIntro from "./HeroIntro";
 
-export default function HomeHeader() {
+const HomeHeader = () => {
   return (
     <header id="start" className="homeheader">
       <Navigation />
@@ -12,3 +12,5 @@ export default function HomeHeader() {
     </header>
   );
 }
+
+export default HomeHeader;

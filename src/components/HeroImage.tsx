@@ -1,9 +1,11 @@
 import React from "react";
 
-export default function HeroImage() {
+const HeroImage = () => {
     return (
       <div className="heroimage">  
       </div>
     );
   }
+
+  export default HeroImage;
   
