@@ -44,7 +44,7 @@ const Navigation = () => {
           <LinkRoute text="Oddaj rzeczy" link="/giveform" />
           <li className="navigation-li">Załóż konto</li>
           <li>
-          <Link className="linkElRoute__link" onClick={logout} to="/logout">Wyloguj</Link>
+          <Link className="navigation-li" onClick={logout} to="/logout">Wyloguj</Link>
           </li>
         </ul>
           ) : (
