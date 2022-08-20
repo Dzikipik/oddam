@@ -19,4 +19,4 @@ const HeroIntro = () => {
     );
   }
 
-  export default HeroImage;
+  export default HeroIntro;

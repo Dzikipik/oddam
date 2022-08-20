@@ -5,6 +5,7 @@ import Login from "./components/Login";
 import Register from "./components/Register";
 import Logout from "./components/Logout";
 import GiveForm from "./components/GiveForm";
+import { AuthProvider } from "./contexts/AuthContext";
 
 function App() {
   return (
